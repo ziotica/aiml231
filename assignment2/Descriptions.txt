@@ -1,0 +1,20 @@
+1. Status: status of the patient 0-Dead, 1-Live
+2. Drug: type of drug D-penicillamine or placebo
+3. Age: age in [days]
+4. Sex: M (male) or F (female)
+5. Ascites: presence of ascites N (No) or Y (Yes)
+6. Hepatomegaly: presence of hepatomegaly N (No) or Y (Yes)
+7. Spiders: presence of spiders N (No) or Y (Yes)
+8. Edema: presence of edema N (no edema and no diuretic therapy for edema), S (edema present without diuretics, or edema resolved by diuretics), or Y (edema despite diuretic therapy)
+9. Bilirubin: serum bilirubin in [mg/dl]
+10. Cholesterol: serum cholesterol in [mg/dl]
+11. Albumin: albumin in [gm/dl]
+12. Copper: urine copper in [ug/day]
+13. Alk_Phos: alkaline phosphatase in [U/liter]
+14. SGOT: SGOT in [U/ml]
+15. Triglycerides: triglicerides in [mg/dl]
+16. Platelets: platelets per cubic [ml/1000]
+17. Prothrombin: prothrombin time in seconds [s]
+18. Stage: histologic stage of disease (1, 2, 3, or 4)
+
+NaN indicates a missing value.
