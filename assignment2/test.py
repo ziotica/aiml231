@@ -10,5 +10,5 @@ df['year_code'] = df['year_code'].astype('category')
 print(df['year_code'])  # Output: category
 
 
-for col in df:
-    df[col] = df[col].astype('category').cat.codes.replace(-1, np.nan)
+for col in categorical_cols:
+        df[col] = df[col].astype('category').cat.codes.replace(-1, np.nan)
